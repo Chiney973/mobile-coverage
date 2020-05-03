@@ -42,7 +42,7 @@ python manage.py loaddata data_gouv_data
 
 Usage examples
 
-Try it with a densely covered network are in Paris
+Try it with a densely covered network area in Paris
 ```
 curl http://127.0.0.1:8000/coverage?q=21+Avenue+d+Italie,+75013+Paris | json_pp
 {
@@ -74,7 +74,8 @@ curl http://127.0.0.1:8000/coverage?q=21+Avenue+d+Italie,+75013+Paris | json_pp
 ```
 Let's try with: Rue de l'Église, Plœuc-sur-Lié, Plœuc-L'Hermitage,
 Saint-Brieuc, Côtes-d'Armor, Bretagne, France métropolitaine, 22150, France
-A poorly covered network zone in Bretagne with coverage source at
+
+A poorly covered network zone in Bretagne with coverage source with
 distance superior to 1km
 ```
 curl http://127.0.0.1:8000/coverage?q=Rue%20de%20l%27%C3%89glise,%20Pl%C5%93uc-sur-Li%C3%A9,%20Pl%C5%93uc-L%27Hermitage,%20Saint-Brieuc,%20C%C3%B4tes-d%27Armor,%20Bretagne,%20France%20m%C3%A9tropolitaine,%2022150,%20France | json_pp
