@@ -35,7 +35,7 @@ pythom manage.py load_mobile_coverage_csv_to_database {csv_filename}
 
 Or to make it simplier, fixture is provided in this repo
 ```
-python manage.py loaddata data_gouv_data
+python manage.py loaddata data_gouv
 ```
 
 ## API
